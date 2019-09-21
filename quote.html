@@ -16,14 +16,27 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="art.html">My Artwork</a></li>
-                <li class="active"><a href="hobby.html">My Hobbies</a></li>
+                <li class="active"><a href="quote.html">Favorite Quote</a></li>
                 <li><a href="favart.html">Favorite Artists</a></li>
             </ul>
             <div class="hobtext">
             <h2>
-                "You're a wizard, Harry." - <a class="italic" href="https://en.wikipedia.org/wiki/Rubeus_Hagrid">Rubeus Hagrid</a>
+                "You're a wizard, Harry." - <a class="linktxt" href="https://en.wikipedia.org/wiki/Rubeus_Hagrid">Rubeus Hagrid</a>
             </h2>
             </div>
     </header>
 </body>
+
+<div class="lastmod">
+        <script>
+            var date = document.lastModified;
+            document.write("Last Modified: " + date);
+        </script>
+        <p id="demo"></p>
+        <script>
+            document.getElementById("demo").innerHTML =
+                "Page path is: " + window.location.pathname;
+        </script>
+        </div>
+
 </html>

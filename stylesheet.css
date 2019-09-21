@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400, 900, 300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,300);
 
 /*Background*/
 
@@ -220,12 +220,62 @@ span::before {
 .hobtext h2{
   text-align: center;
   font-size: 80px;
-  font-weight: 100;
+  font-weight: 400;
   font-style: italic;
   margin-top: 250px;
   color: #fff;
 }
 
-.italic{
+.linktxt{
 color: #fff;
+font-style: italic;
+}
+
+/*Table*/
+
+.project-heading h2{
+text-align: center;
+color: #fff;
+}
+
+#project-table{
+  border: 1px solid #fff;
+  margin: 0;
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+#project-table th{
+border: 1px solid #fff;
+padding: 5px;
+font-size: large;
+color: #fff;
+
+}
+#project-table td{
+border: 1px solid #fff;
+padding: 5px;
+padding-left: 10px;
+font-weight: bold;
+}
+
+.table-header{
+  color: #fff;
+  text-align: center;
+}
+
+#content-wrap{
+  padding-top: 200px;
+}
+
+/*LastMod*/
+
+.lastmod{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  left: 45%;
+  color: #fff; 
 }

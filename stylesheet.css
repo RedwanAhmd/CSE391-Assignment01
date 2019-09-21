@@ -48,6 +48,7 @@ header {
 ul {
   list-style-type: none;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 ul li {

@@ -16,10 +16,54 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="art.html">My Artwork</a></li>
-                <li><a href="hobby.html">My Hobbies</a></li>
+                <li><a href="quote.html">Favorite Quote</a></li>
                 <li class="active"><a href="favart.html">Favorite Artists</a></li>
             </ul>
+
+            
+            <div id="content-wrap">
+                <h2 class="table-header">Favorite Artists :</h2>
+                <br>
+                <br>
+                <table id="project-table">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                    </tr>
+                    <tr>
+                        <td>Redwan</td>
+                        <td>Ahmed</td>
+                    </tr>
+                    <tr>
+                        <td>Khaled</td>
+                        <td>Mohammad</td>
+                    </tr>
+                    <tr>
+                        <td>Yamin</td>
+                        <td>Faruque</td>
+                    </tr>
+                    <tr>
+                         <td>Zahin</td>
+                        <td>Adeeb</td>
+                    </tr>
+
+                </table>
+            </div>
+
     </header>
     
 </body>
+
+<div class="lastmod">
+        <script>
+            var date = document.lastModified;
+            document.write("Last Modified: " + date);
+        </script>
+        <p id="demo"></p>
+        <script>
+            document.getElementById("demo").innerHTML =
+                "Page path is: " + window.location.pathname;
+        </script>
+        </div>
+
 </html>

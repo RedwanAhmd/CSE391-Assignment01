@@ -16,7 +16,7 @@
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="about.html">About Me</a></li>
           <li><a href="art.html">My Artwork</a></li>
-          <li><a href="hobby.html">My Hobbies</a></li>
+          <li><a href="quote.html">Favorite Quote</a></li>
           <li><a href="favart.html">Favorite Artists</a></li>
         </ul>
       </div>
@@ -36,5 +36,18 @@
         <h1>I like <span></span></h1>
       </div>
     </div>
+
+    <div class="lastmod">
+    <script>
+        var date = document.lastModified;
+        document.write("Last Modified: " + date);
+    </script>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML =
+            "Page path is: " + window.location.pathname;
+    </script>
+    </div>
+
   </body>
 </html>

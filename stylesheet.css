@@ -214,3 +214,14 @@ span::before {
   width: 600px;
   height: 600px;
 }
+
+/*Hobby*/
+
+.hobtext h2{
+  text-align: center;
+  font-size: 80px;
+  font-weight: 100;
+  font-style: italic;
+  margin-bottom: 0;
+  color: #fff;
+}

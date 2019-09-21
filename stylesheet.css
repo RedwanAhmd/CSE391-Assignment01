@@ -1,0 +1,216 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,300);
+
+/*Background*/
+
+body {
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@keyframes bgcolor {
+  0% {
+    background-color: #f16580;
+  }
+
+  30% {
+    background-color: #ff6699;
+  }
+
+  60% {
+    background-color: #0e1438;
+  }
+
+  90% {
+    background-color: #ffdb66;
+  }
+
+  100% {
+    background-color: #66d9ff;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/*NavBar*/
+
+header {
+  height: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  -webkit-animation: fadein 2s;
+}
+
+ul li a:hover {
+  background-color: #fff;
+  color: #f16580;
+}
+
+ul li.active a {
+  background-color: #fff;
+  color: #f16580;
+}
+
+.main {
+  max-width: 650px;
+  margin: auto;
+}
+
+/*Text*/
+
+.title {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-animation: fadein 4s;
+}
+
+.title2 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-animation: fadein 6s;
+}
+
+.title3 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-animation: fadein 12s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.title h2 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.title2 h2 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.title3 h1 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 400;
+}
+
+span::before {
+  content: "HTML";
+  animation: animate infinite 8s;
+}
+
+@keyframes animate {
+  0% {
+    content: "to sing";
+  }
+  25% {
+    content: "to dance";
+  }
+  50% {
+    content: "to pretend";
+  }
+  75% {
+    content: "to have fun";
+  }
+  100% {
+    content: "to have funfunfun";
+  }
+}
+
+/*About Me*/
+
+.box{
+  width: 450px;
+  height: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  border-radius: 15px;
+}
+
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.box h5{
+  padding-top: 10px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.box p{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+
+.box li a:hover{
+  color: #f16580;
+}
+
+/*MyArt*/
+
+.myart img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+}

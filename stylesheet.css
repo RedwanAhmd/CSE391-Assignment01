@@ -43,6 +43,8 @@ header {
   height: 10px;
   background-size: cover;
   background-position: center;
+  display: flex; 
+  justify-content: center;
 }
 
 ul {
@@ -52,7 +54,8 @@ ul {
 }
 
 ul li {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
 }
 
 ul li a {
